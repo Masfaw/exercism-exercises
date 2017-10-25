@@ -1,9 +1,11 @@
 
 
 # ignore build folders
+.idea/
+java/**/.idea/
+java/hello-world/.gradle/
+java/two-fer/.gradle/
+java/**/.gradle/
+java/**/build/
 
-/**/.gradle/
-/**/build/
-/**/.idea/
-
-/.idea/
+.gitignore
