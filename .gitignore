@@ -5,7 +5,14 @@
 java/**/.idea/
 java/hello-world/.gradle/
 java/two-fer/.gradle/
+java/two-fer/.idea/
 java/**/.gradle/
 java/**/build/
+java/**/build.gradle
 
 .gitignore
+
+
+java/rna-transcription/.gradle/
+java/rna-transcription/.idea/
+java/rna-transcription/build.gradle
