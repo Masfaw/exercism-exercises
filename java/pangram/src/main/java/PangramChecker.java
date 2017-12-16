@@ -15,9 +15,7 @@ public class PangramChecker {
             if (index >= 0 && index < 26){
                 letters[index] = true;
             }
-
         }
-
         for (int i =0 ; i < letters.length; i++){
             if (!letters[i]){
                 isPan = false;
