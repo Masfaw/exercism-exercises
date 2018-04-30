@@ -3,16 +3,19 @@ import java.time.LocalDateTime;
 
 class Gigasecond {
 
+    private LocalDateTime bDay;
+    private static long GIGASECONDS = 1000000000L;
+
     Gigasecond(LocalDate birthDate) {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        this.bDay = birthDate.atStartOfDay();
     }
 
     Gigasecond(LocalDateTime birthDateTime) {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        this.bDay = birthDateTime;
     }
 
     LocalDateTime getDate() {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        return bDay.plusSeconds(GIGASECONDS);
     }
 
 }
