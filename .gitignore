@@ -3,10 +3,12 @@
 # ignore build folders
 .idea/
 java/**/.idea/
-java/hello-world/.gradle/
+java/hello-world/.gradle/*
+java/hello-world/build/
 java/two-fer/.gradle/
 java/two-fer/.idea/
 java/**/.gradle/
+java/*/.gradle/
 java/**/build/
 java/**/build.gradle
 
