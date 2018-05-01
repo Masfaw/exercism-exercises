@@ -1,43 +1,54 @@
 class SpaceAge {
+    double ageInSeconds;
+    double earthYears;
+
+    static double mercuryOrbit = 0.2408467;
+    static double venusOrbit = 0.61519726;
+    static double marsOrbit = 1.8808158;
+    static double jupiterOrbit = 11.862615;
+    static double saturnOrbit = 29.447498;
+    static double uranusOrbit = 84.016846;
+    static double neptuneOrbit = 164.79132;
+
 
     SpaceAge(double seconds) {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        ageInSeconds = seconds;
+        earthYears = seconds / 365.25 / 60 / 60 / 24;
     }
 
     double getSeconds() {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        return ageInSeconds;
     }
 
     double onEarth() {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        return earthYears;
     }
 
     double onMercury() {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        return earthYears / mercuryOrbit;
     }
 
     double onVenus() {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        return earthYears / venusOrbit;
     }
 
     double onMars() {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        return earthYears / marsOrbit;
     }
 
     double onJupiter() {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        return earthYears / jupiterOrbit;
     }
 
     double onSaturn() {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        return earthYears / saturnOrbit;
     }
 
     double onUranus() {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        return earthYears / uranusOrbit;
     }
 
     double onNeptune() {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        return earthYears / neptuneOrbit;
     }
-
 }
